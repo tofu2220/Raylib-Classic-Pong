@@ -106,7 +106,7 @@ int main()
     cpu.height = 100;
     cpu.x = 10;
     cpu.y = (GetScreenHeight() - cpu.height) / 2;
-    cpu.speed = 10;
+    cpu.speed = 4;
 
 
     while (!WindowShouldClose())
